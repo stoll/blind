@@ -1,0 +1,19 @@
+{
+  "name": "blind",
+  "author": "stoll",
+  "repository": "https://github.com/stoll/blind",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "Open source library for making blind data.",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "js-sha3": "^0.9.3"
+  }
+}
